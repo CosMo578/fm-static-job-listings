@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900");
+@import "tailwindcss";
+
+@theme {
+  --color-bodyBg: #effafa;
+  --color-lightGray: #5ba4a4;
+  --color-darkGray: #7b8e8e;
+  --color-veryDarkGray: #2c3a3a;
+}
+
+body {
+  font-family: "League Spartan", serif;
+}
+
+.tags {
+  @apply text-lightGray bg-bodyBg hover:bg-lightGray flex cursor-pointer items-center justify-center rounded-lg px-2 py-1 font-semibold hover:text-white;
+}
